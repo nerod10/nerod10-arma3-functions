@@ -4,7 +4,7 @@ class CfgSounds
 	class mySound
 	{
 		name = "mySound";
-		sound[] = {"sounds\StarDestroyer.ogg", 6000, 1};
+		sound[] = {"sounds\exitingHyperspace.ogg", 6000, 1};
 		titles[] = {0,""};
 	};
 
