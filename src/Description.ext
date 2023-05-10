@@ -1,0 +1,27 @@
+
+class CfgSounds
+{
+	sounds[] = {};
+	class exitJump
+	{
+		name = "exitJump";
+		sound[] = {"sounds\exitJump.ogg", 6000, 1};
+		titles[] = {0,""};
+	};
+	class exitJump2
+	{
+		name = "exitJump2";
+		sound[] = {"sounds\exitJump2.ogg", 6000, 1};
+		titles[] = {0,""};
+	};
+	class laserSound01
+	{
+		name = "laserSound01";
+		sound[] = {"sounds\laserSound01.ogg", 6000, 1};
+		titles[] = {0,""};
+	};
+};
+class cfgFunctions
+{
+	#include "functions\cfgfunctions.hpp"
+};

@@ -1,0 +1,5 @@
+"JMSLLTE_vg_xx9turbolaser_Ammo"
+"JMSLLTE_vg_df9cannon_Ammo"
+"3AS_Mass_Driver_Shell"
+TurboLaser_Laserx2
+3as_Arc_Light_Energy_shell
