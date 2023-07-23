@@ -1,5 +1,20 @@
-"JMSLLTE_vg_xx9turbolaser_Ammo"
-"JMSLLTE_vg_df9cannon_Ammo"
-"3AS_Mass_Driver_Shell"
-TurboLaser_Laserx2
-3as_Arc_Light_Energy_shell
+
+3AS_Mass_Driver_Shell - large blue plasma
+TurboLaser_Laserx2 - large green plasma, SWOP mode
+3as_Arc_Light_Energy_shell - two small green plasma
+3as_ARC_Heavy_Energy_shell - small red plasma
+3AS_BTLB_Heavy_Energy_Shells - small green plasma
+3AS_GAT_redPlasma_AT - medium red plasma
+
+
+
+
+
+"JMSLLTE_Detonitecharge_imp"
+"JMSLLTE_Detonitecharge_reb"
+"SWLG_TX130_AA_ammo"
+
+
+
+    
+
