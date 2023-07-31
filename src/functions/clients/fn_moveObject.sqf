@@ -1,4 +1,3 @@
-//anim1 = [t5,b11,2,120,1] spawn TG_fnc_movingBox; sleep 0.5;
 params ["_mainMovingObj", "_destinationObj", "_animationLength", 
 		"_animationFPS","_delayAnimation","_keepFinalPosition", 
 		"_nextVectorDir", "_nextVectorUp",

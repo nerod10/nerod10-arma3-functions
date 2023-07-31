@@ -13,7 +13,7 @@ while {time < (_startTime + _barrageTimeLength)} do {
 		if ( random 1 > 0.55) then {
 			[_turret,_target,2000,_shellType,50,time,300] spawn TG_fnc_fireLaser;
 			playSound _soundName;
-			//playSound3D ["lasershot01",_turret ,false, getPosATL _turret, 1, 1, 0];
+			//playSound3D [_soundName,_turret ,false, getPosATL _turret, 1, 1, 0];
 		};
 	};
 	sleep .5;
