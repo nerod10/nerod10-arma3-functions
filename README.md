@@ -24,7 +24,7 @@ all will place in the init.sqf file (or in the file you work with)
 [box1,box2,10,0] spawn TG_fnc_moveObject;
 ```
 
-this will move box1 to box2 in 10 seconds and will delay the animation by 0 seconds
+this will move box1 to box2 in 10 seconds, the animation start will be delayed by 0 seconds
 
 ### fireLaser
 ```
