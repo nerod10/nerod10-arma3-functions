@@ -16,9 +16,9 @@ in some cases the entity that you want to move will point 180 degrees from it ta
 
 
 ## examples
-### moveObject
+
 all will place in the init.sqf file (or in the file you work with)
-example 1:
+### moveObject
 
 ```
 [box1,box2,10,0] spawn TG_fnc_moveObject;
@@ -26,13 +26,13 @@ example 1:
 
 this will move box1 to box2 in 10 seconds and will delay the animation by 0 seconds
 
-example 2:
+### fireLaser
 ```
 [box1,box2,1000,"3as_ARC_Heavy_Energy_shell",40,time,300] spawn TG_fnc_fireLaser;
 ```
 this will shoot a projectile from box1 to box2, the speed will be 1000, the projectile type will be "3as_ARC_Heavy_Energy_shell", the projectile will scale by 40, the shoot will acure emidiatly ceause the time is pointing to the current time, and the shoot accuracy radius will be 300 meters
 
-example 3:
+### laserBarrage
 ```
 [[box1,box2,box3],targetBox,5,8,"3as_ARC_Heavy_Energy_shell","lasershot01",2000,40,300] spawn TG_fnc_laserBarrager;
 ```
