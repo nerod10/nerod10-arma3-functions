@@ -34,7 +34,7 @@ this will shoot a projectile from box1 to box2, the speed will be 1000, the proj
 
 ### laserBarrage
 ```
-[[box1,box2,box3],targetBox,5,8,"3as_ARC_Heavy_Energy_shell","lasershot01",2000,40,300] spawn TG_fnc_laserBarrag;
+[[box1,box2,box3],targetBox,5,8,"3as_ARC_Heavy_Energy_shell","lasershot01",2000,40,300] spawn TG_fnc_laserBarrage;
 ```
 this will start a barrage from box1,2 and 3 to targetBox, the barrage start will delay 5 seconds, will last 8 second, projectile type "3as_ARC_Heavy_Energy_shell", each shot will play the "lasershot01" sound, the speed will be 2000, the projectile will scale by 40, the shoot accuracy radius will be 300 meters
 
