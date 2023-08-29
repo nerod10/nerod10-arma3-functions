@@ -8,7 +8,7 @@ _mainMovingObj = _this select 0; // object to move
 _destinationObj = _this select 1; // object to move to
 _animationLength = _this select 2; // length of animation in seconds
 _delayAnimation = _this select 3; // delay before animation starts
-
+sleep (_delayAnimation);
 _fromPosASL = getPosASL _mainMovingObj;
 _toPosASL = getPosASL _destinationObj;
 _fromDir = vectorDir _mainMovingObj;
@@ -17,7 +17,7 @@ _fromUp = vectorUp _mainMovingObj;
 _toUp = vectorUp _destinationObj;
 
 //_mainMovingObj attachTo [_destinationObj];
-sleep (_delayAnimation);
+
 _startTime = time;
 _endTime = _startTime + _animationLength;
 _interval = linearConversion [_startTime, _endTime, time, 0, 1];
