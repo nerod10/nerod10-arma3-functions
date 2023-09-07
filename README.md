@@ -48,6 +48,7 @@ all will place in the init.sqf file (or in the file you work with)
 ```
 
 this will move box1 to box2 in 10 seconds, the animation start will be delayed by 0 seconds
+![image](https://github.com/nerod10/nerod10-arma3-functions/assets/65760965/b2036686-e650-415b-9538-c087773d28bd)
 
 ### fireLaser
 ```
