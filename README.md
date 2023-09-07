@@ -8,6 +8,29 @@
 4. move the newly created missionFileInit.bat file to the mission folder you created in step 1
 5. run the missionFileInit.bat as administrator, this will create a new folder called "functions" in the mission folder
 6. a init.sqf file will be created in the mission folder, this file will be used to load the functions
+ 
+ finaly the mission folder tree should look like this:
+ ```
+    <mission_folder_name>.<terrain_name>/
+        mission.sqm
+        init.sqf
+        Description.ext
+        functions/
+            cfgfunctions.hpp
+            clients/
+                fn_fireLaser.sqf
+                fn_laserBarrage.sqf
+                fn_mouseShipMovment.sqf
+                fn_moveObject.sqf
+        sounds/
+            exitJump.ogg
+            exitJump2.ogg
+            lasershot01.ogg
+            laserSound01.ogg
+```
+
+
+
 
 ## create a mission
 to create a fliyng ship, you can use a key frame animation or to use the moveObject fucntion
