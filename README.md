@@ -9,7 +9,7 @@
 5. run the missionFileInit.bat as administrator, this will create a new folder called "functions" in the mission folder
 6. a init.sqf file will be created in the mission folder, this file will be used to load the functions
  
- finaly the mission folder tree should look like this:
+ finally the mission folder tree should look like this:
  ```
     <mission_folder_name>.<terrain_name>/
         mission.sqm
